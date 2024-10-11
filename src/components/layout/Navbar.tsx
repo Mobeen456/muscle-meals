@@ -71,6 +71,7 @@ export default function NavigationMenuDemo() {
 
       {/* Mobile Menu (Hamburger Icon) */}
       <div className="flex flex-row gap-4 items-center justify-center">
+        <Link href="/profile" >Hello,User</Link>
         <Link href="/cart" ><IoCartOutline className="w-6 h-6"/></Link>
       <Sheet>
         <SheetTrigger asChild>

@@ -52,35 +52,4 @@ body {
     text-wrap: balance;
   }
 }
-.subtitle {
-  color: #fc791a;
-  font-family: "Epilogue", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-}
-.title{
-    color: #010f1c;
-    text-align: center;
-    font-family: "Epilogue", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 50px;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-}
-.section-title{
-  margin-bottom: 45px;
-  color: var(--white);
-  font-family: "Epilogue", sans-serif;
-  font-size: 96px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 105px;
-  text-transform: uppercase;
 
-}
