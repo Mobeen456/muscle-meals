@@ -42,7 +42,7 @@ export default function NavigationMenuDemo() {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/menu" className="font-serif ">
+            <Link href="/food-menu" className="font-serif ">
               Food Menu
             </Link>
           </NavigationMenuItem>

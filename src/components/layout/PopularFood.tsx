@@ -48,6 +48,7 @@ export default function PopularFood() {
 
         <div className="w-full flex justify-center items-center mt-6">
           <Carousel
+          opts={{loop: true}}
             plugins={[Autoplay({ delay: 2000 })]}
             className="w-full"
           >

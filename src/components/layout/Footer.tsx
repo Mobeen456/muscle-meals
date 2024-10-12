@@ -9,12 +9,13 @@ import {
 import Link from "next/link";
 import { FiFacebook } from "react-icons/fi";
 import { IoLocationSharp, IoLogoWhatsapp } from "react-icons/io5";
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+
 import { Form } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@radix-ui/react-checkbox";
+import { Checkbox } from "@/components/ui/checkbox";
 import Image from "next/image";
+import { Label } from "../ui/label";
 
 export default function Footer() {
     return (
@@ -119,15 +120,15 @@ export default function Footer() {
             <div className="text-2xl font-extrabold">Contact Us</div>
             <div>Monday-Friday: 9:00 AM - 6:00 PM</div>
             <div>Saturday: 9:00 AM - 4:00 PM</div>
-            <div className="flex items-center bg-white p-2 rounded-md">
+            <div className="flex items-center bg-white text-black p-2 rounded-md gap-2">
               <Input type="email" placeholder="Email" />
               <Button className="bg-[#eb0029] hover:bg-[#fc791a]">
                 <ArrowBigRightIcon className="w-6 h-6" />
               </Button>
             </div>
             <div className="flex items-center space-x-2">
-              <Checkbox id="terms" className="w-4 h-4 bg-[#eb0029]" defaultChecked />
-              <label htmlFor="terms" className="text-sm">Accept terms and conditions</label>
+              <Checkbox id="terms" className="w-4 h-4 bg-white" />
+              <Label htmlFor="terms" className="text-sm">Subscribe to our newsletter</Label>
             </div>
           </div>
         </div>

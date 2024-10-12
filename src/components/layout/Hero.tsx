@@ -22,7 +22,7 @@ export default function Hero() {
           src={"/bannerBG1_1.jpg"}
           alt="meal image"
           fill
-        ></Image>
+        />
       </div>
       {/* Left section with text */}
       <div className="w-full md:w-1/2 flex flex-col justify-center items-start p-4 min-h-[300px] md:min-h-screen   z-10">
